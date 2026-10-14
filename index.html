@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBite</title>
+</head>
+<body style="font-family: Arial">
+    <header id="top">
+        <img src="FreshBites.png" width="400";>
+
+<br>
+
+        <form action="#" method="get">
+            <label for="search">Search food:</label>
+            <input type="search" id="search" name="q"
+                   placeholder="Search fruits, vegetables, bread...">
+            <button type="submit">Search</button>
+        </form>
+
+<br>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#food">Food</a> |
+            <a href="#items">Grocery Items</a> |
+            <a href="#clothing">Aprons</a> |
+            <a href="#cart">Cart</a> |
+            <a href="#checkout">Checkout</a> 
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Fresh Food, Better Living!</h2>
+            <p>
+                Welcome to FreshBite, your online shop for fresh fruits,
+                vegetables, bakery favorites, and kitchen essentials.
+            </p>
+            <p>Quality ingredients for a healthier you!</p>
+            <a href="#food"><button type="button">Shop Now</button></a>
+            <hr>
+        </section>
+
+        <section id="food">
+            <h2>Fresh Food</h2>
+            <p>Choose fresh products for your everyday meals.</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h3><img src="Apple.jpg" alt="Fresh apples" width="100"><br>🍎 Fresh Apples</h3></td>
+                        <td>Sweet and crunchy apples.</td>
+                        <td><strong>₱120/kg</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="Carrots.jpg" alt="Organic carrots" width="100"><br>🥕 Organic Carrots</h3></td>
+                        <td>Fresh carrots for salads and soups.</td>
+                        <td><strong>₱85/kg</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="Strawberries.jpg" alt="Fresh strawberries" width="100"><br>🍓 Fresh Strawberries</h3></td>
+                        <td>Sweet strawberries sold by the box.</td>
+                        <td><strong>₱180/box</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <a href="#top"><button type="button">Back to top</button></a>
+        </section>
+
+        <hr>
+        <section id="items">
+            <h2>Grocery Items</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h3><img src="Sourdough.jpg" alt="Sourdough Bread" width="100"><br>🍞 Sourdough Bread</h3></td>
+                        <td>Freshly baked bread.</td>
+                        <td><strong>₱150/loaf</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="Milk.jpg" alt="Fresh Milk" width="100"><br>🥛 Fresh Milk</h3></td>
+                        <td>Milk for drinks and recipes.</td>
+                        <td><strong>₱95/bottle</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="Honey.jpg" alt="Local Honey" width="100"><br>🍯 Local Honey</h3></td>
+                        <td>Natural sweetness for your food.</td>
+                        <td><strong>₱160/jar</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        <a href="#top"><button type="button">Back to top</button></a>
+            <hr>
+        </section>
+
+        <section id="clothing">
+            <h2>Kitchen Wear</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Size</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h3><img src="Apron.jpg" alt="Green Kitchen Apron" width="100"><br>👕 Green Kitchen Apron</h3></td>
+                        <td>Reusable cooking apron.</td>
+                        <td>
+                            <label for="green-size">Choose size:</label>
+                            <select id="green-size" name="green-size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </td>
+                        <td><strong>₱250</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="CottonApron.jpg" alt="Cotton Kitchen Apron" width="100"><br>👕 Cotton Kitchen Apron</h3></td>
+                        <td>Lightweight apron with front pockets.</td>
+                        <td>
+                            <label for="cotton-size">Choose size:</label>
+                            <select id="cotton-size" name="cotton-size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </td>
+                        <td><strong>₱320</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                    <tr>
+                        <td><h3><img src="Cap.jpg" alt="FreshBite Cap" width="100"><br>🧢 FreshBite Cap</h3></td>
+                        <td>A simple cap for food preparation.</td>
+                        <td>One size</td>
+                        <td><strong>₱180</strong></td>
+                        <td><button type="button">Add to Cart</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        <a href="#top"><button type="button">Back to top</button></a>
+            <hr>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <p>Sample cart items for demonstration.</p>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fresh Apples</td>
+                        <td>₱120</td>
+                        <td>
+                            <input type="number" name="apple-qty"
+                                   min="1" max="20" value="1"
+                                   aria-label="Fresh apples quantity">
+                        </td>
+                        <td>₱120</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Sourdough Bread</td>
+                        <td>₱150</td>
+                        <td>
+                            <input type="number" name="bread-qty"
+                                   min="1" max="20" value="1"
+                                   aria-label="Bread quantity">
+                        </td>
+                        <td>₱150</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Total</th>
+                        <th colspan="2">₱270</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>
+                <a href="#checkout">
+                    <button type="button">Proceed to Checkout</button>
+                </a>
+            </p>
+            <br>
+        <a href="#top"><button type="button">Back to top</button></a>
+            <hr>
+        </section>
+
+        <section id="checkout">
+            <h2>Checkout</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+
+                    <p>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name"
+                               name="full-name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="you@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone"
+                               placeholder="09XX XXX XXXX">
+                    </p>
+
+                    <p>
+                        <label for="address">Complete Address:</label><br>
+                        <textarea id="address" name="address"
+                                  rows="4" cols="40" required></textarea>
+                    </p>
+
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city"
+                               list="cities" required>
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="Manila">
+                            <option value="Quezon City">
+                            <option value="Taguig City">
+                            <option value="Makati City">
+                        </datalist>
+                    </p>
+                    
+                    <p>
+                        <label for="delivery-option">Delivery Option:</label>
+                        <select id="delivery-option" name="delivery-option">
+                            <option value="standard">Standard Delivery</option>
+                            <option value="express">Express Delivery</option>
+                            <option value="pickup">Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+
+                    <p>
+                        <input type="radio" id="card" name="payment"
+                               value="card" checked>
+                        <label for="card">Credit / Debit Card</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="cod" name="payment"
+                               value="cod">
+                        <label for="cod">Cash on Delivery</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="ewallet" name="payment"
+                               value="ewallet">
+                        <label for="ewallet">E-Wallet</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Order Extras</legend>
+
+                    <p>
+                        <input type="checkbox" id="gift-wrap"
+                               name="extras" value="gift-wrap">
+                        <label for="gift-wrap">Gift Wrap (+₱20)</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="receipt"
+                               name="extras" value="receipt">
+                        <label for="receipt">Include Printed Receipt</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="terms" name="terms"
+                               value="agreed" required>
+                        <label for="terms">
+                            I agree to the
+                            <a href="#terms-info">Terms &amp; Conditions</a>
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Place Order</button>
+                    <button type="reset">Clear</button>
+                </p>
+            </form>
+            <br>
+        <a href="#top"><button type="button">Back to top</button></a>
+            <hr>
+        </section>
+
+     
+
+        <section id="contact">
+           
+            <h3>Reach Us</h3>
+            <address>
+                FreshBite Online Store<br>
+                Camp Allen, Baguio City, Philippines<br>
+                Phone: <a href="tel:+630000000000">+63 000 000 0000</a><br>
+                Email: <a href="mailto:hello@freshbite.example">freshbite@gmail.com</a>
+            </address>
+
+            <h3>Leave a Review</h3>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="review-name">Your Name:</label>
+                    <input type="text" id="review-name"
+                           name="review-name" required>
+                </p>
+
+                <p>
+                    <label for="rating">Rating (1 to 5):</label>
+                    <input type="range" id="rating" name="rating"
+                           min="1" max="5" value="5">
+                </p>
+
+                <p>
+                    <label for="review-message">Your Review:</label><br>
+                    <textarea id="review-message" name="review-message"
+                              rows="4" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <label for="review-photo">Upload a Photo:</label>
+                    <input type="file" id="review-photo"
+                           name="review-photo" accept="image/*">
+                </p>
+
+                <button type="submit">Submit Review</button>
+            </form>
+            <br>
+        <a href="#top"><button type="button">Back to top</button></a>
+            <hr>
+        </section>
+
+        
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li>
+                    <a href="https://maps.app.goo.gl/MRTNefwg5WMKKMJu7"
+                       target="_blank" rel="noopener">Google Maps</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/cedric.julz.canada.25"
+                       target="_blank" rel="noopener">Facebook</a>
+                </li>
+            </ul>
+            <hr>
+        </section>
+
+        <section id="terms-info">
+            <h2>Terms &amp; Conditions</h2>
+
+            <details>
+                <summary>Read the Terms</summary>
+                <ol>
+                    <li>Orders depend on product availability.</li>
+                    <li>Please provide a correct delivery address.</li>
+                    <li>Check your products when they arrive.</li>
+                    <li>Payment must follow the selected payment method.</li>
+                </ol>
+            </details>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="#home">About Us</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#checkout">Shipping Policy</a> |
+            <a href="#terms-info">Returns</a>
+        </p>
+
+        <p>&copy; 2026 FreshBite-Cedric Julz Cañada. All rights reserved.</p>
+        <p><a href="#top">Back to Top ↑</a></p>
+    </footer>
+</body>
+</html>
